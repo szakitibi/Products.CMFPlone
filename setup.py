@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-version = "6.0.6.dev0"
+version = "6.0.7.dev0"
 
 
 setup(
@@ -64,7 +64,6 @@ setup(
         "plone.app.layout >= 2.5.15",
         "plone.app.linkintegrity >=1.0.3",
         "plone.app.locales",
-        "plone.app.multilingual",
         "plone.app.portlets",
         "plone.app.redirector",
         "plone.app.registry",
@@ -74,6 +73,7 @@ setup(
         "plone.app.viewletmanager",
         "plone.app.vocabularies",
         "plone.app.workflow",
+        "plone.app.z3cform >= 4.1.0",
         "plone.base",
         "plone.browserlayer >= 2.1.5",
         "plone.contentrules",
